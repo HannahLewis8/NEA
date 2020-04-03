@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Art Generation Program</title> 
+        <script src="mainF.js"></script>
+        <link rel="stylesheet" href="stylesF.css">
+    </head>
+<body onload="init();">
+    <h1>ART GENERATION PROGRAM<h1>
+    <canvas id="canvas" width="600" height="600"></canvas><br>
+    <label>CHOOSE IMAGE
+        <input type= "file" id ="inputImage" accept="image/*">
+    </label>
+    <input type ="button" value = "GREYSCALE" onclick="greyscale(canvasData)"><br>
+    <input type ="button" value = "EDGE DETECTION" onclick="edgeDetection(canvasData)"><br>
+    <p> use the slider below to adjust how many points to generate art from</p>
+    <br><br><input type ="button" value = "ART GENERATION" onclick="artGeneration(canvasData)"><br>
+    <input type ="button" value = "RANDOM" onclick ="random(canvasData)"><br>
+    <input type ="range" min="1" max="150" value="75" id="edgeRangeSlider" onchange="edgeSelection(canvasData)">
+    <p id= "edges"></p>
+    <p id= "strongEdges"></p>
+    <p id= "strongEdgesCoordinates"></p> 
+</body>
+</html>
+ 

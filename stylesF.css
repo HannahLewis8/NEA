@@ -1,0 +1,99 @@
+body {
+    background-color: rgb(250, 250, 250);
+}
+
+canvas {
+    border : 2px solid black;
+    }
+
+h1 {
+    margin-left: 50px;
+    color:  rgba(37, 4, 4, 1);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 250%;
+}
+
+p {
+    color:  rgba(37, 4, 4, 1);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15.5px;
+    position: absolute;
+    left: 718px;
+    top: 350px;
+    width: 172px;
+    text-align: center;
+}
+
+input[type=button] {
+    position: relative;
+    left: 620px;
+    top: -600px;
+    width: 180px;
+    height: 60px;
+    margin: 35px;
+    background-color: rgba(37, 4, 4, 0.85);
+    border: 3px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    font-size: 35%;
+    color: whitesmoke;
+    letter-spacing: 3px;
+}
+
+input[type=file] {
+    position: absolute;
+    left: 35px;
+    top: 700px;
+    margin: 25px;
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+}
+
+input[type=range] {
+    position: absolute;
+    left: 715px;
+    top: 440px;
+    width: 172px;
+    direction : rtl;
+}
+
+input[type=range] {
+    -webkit-appearance: none;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: 1px solid black;
+    height: 20px;
+    width: 20px;
+    border-radius: 15px;
+    background: rgba(37, 4, 4, 0.85);
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    animation: 0.7s;
+    border: 1px solid black;
+    height: 22px;
+    width: 173px;
+    border-radius: 15px;
+    background: rgba(37, 4, 4, 0.5);
+}
+
+label {
+    position: absolute;
+    left: 35px;
+    top: 700px;
+    width: 180px;
+    height: 60px;
+    margin: 25px;
+    background-color: rgba(37, 4, 4, 0.85);
+    border: 3px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    font-size: 35%;
+    color: whitesmoke;
+    letter-spacing: 3px;
+    text-align: center;
+    line-height: 60px;
+}
